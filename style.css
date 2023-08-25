@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+    color: #FFFFFF;
+    
+    
+    
+}
+
+#menusuperior{
+    background-color: #303030;
+    margin: 0px;
+    
+  
+}
+
+#titulo-menusuperior{
+    margin-top: 0px;
+    padding-top: 160px;
+    margin-left: 62px;
+    color: #FFFFFF;
+    font-size: 55px;
+}
+#texto-menusuperior{
+    margin-top: 30px;
+    margin-left: 62px;
+    padding-bottom: 10%;
+    
+    color: #FFFFFF;
+    font-size: 15px;
+
+}
+#menuinformacional{
+    background-color: #F9F9F9; 
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.informacional{
+    margin: 50px 0px 50px 50px;
+    padding: 25px;
+    block-size: 47px;
+    background-color: #F9F9F9;
+    color: black;
+
+}
+#secaoarquitetura{
+    background-color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+    
+}
+#tituloarquitetura{
+    color: black;
+    margin-left: 77px;
+    padding-top: 40%;
+    
+}
+#textoarquitetura{
+    color: black;
+    margin-left: 77px;
+}
+#desingarquitetura{
+    padding: 80px;
+}
+#formulario{
+    background-color: #303030;
+    text-align: center;
+}
+#titulo-formulario{
+    font-size: 32px;
+    padding: 45px;
+    padding-top: 70px;
+
+}
+input{
+    Width: 508px;
+    Height: 72px;
+    background-color: #FFFFFF;
+    margin: 25px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: 'raleway';
+    font-size: 24px;
+}
+button{
+    background-color: #C07212;
+    Width: 286px;
+    Height: 74px;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-family: 'raleway';
+    font-size: 30px;
+    line-height: 30px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #b36c15;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #2c1901f6;
+    transition-duration: 0.5s;
+}
+
